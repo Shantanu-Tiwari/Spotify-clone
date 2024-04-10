@@ -1,0 +1,22 @@
+body{
+    height: auto;
+
+    background-color: white;
+    margin: 8px;
+}
+.navbar{
+    float: right;
+    width: 70%;
+    height: 20%;
+    background-color: #212121;
+    border: grey;
+}
+.player{
+    float: right;
+    height: 12%;
+    width: 99%;
+    background-color: black;
+    bottom: 0;
+    position: fixed;
+
+}
