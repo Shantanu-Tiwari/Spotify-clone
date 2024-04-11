@@ -1,15 +1,20 @@
 body{
-    height: auto;
+    min-height: 100vh;
 
     background-color: white;
     margin: 8px;
 }
 .navbar{
-    float: right;
-    width: 70%;
-    height: 20%;
+    right: 0.5%;
+    width: 72%;
+    height: 17%;
     background-color: #212121;
     border: grey;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 11;
 }
 .player{
     float: right;
@@ -19,4 +24,29 @@ body{
     bottom: 0;
     position: fixed;
 
+}
+#Explore{
+    color: white;
+}
+#Install{
+    color: white;
+
+}
+#back{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-right: 4px;
+}
+ul{
+    list-style: none;
+}
+.home{
+    background-color: black;
+    border: 0;
+}
+h3{
+    display: inline-block;
 }
